@@ -4,9 +4,6 @@ require 'sinatra'
 require 'newrelic_rpm'
 
 get '/' do
-	"mic check"
+	"Home route"
 end
 
-get '/foo' do
-	"foo"
-end
